@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb|Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="page-content">
+        <div class="explore">
+            Continue exploring cabins
+            <button class="show-more">Show More</button>
+        </div>
+
+        <div class="box">
+            <h2 class="inspiration-title">Inspiration for future getaways</h2>
+            <div class="button-container">
+                <button type="button" class="custom-button" onclick="toggleDropdown()">Popular</button>
+                <ul class="dropdown-menu" id="dropdownMenu">
+                    <li><a href="#">Aberfeldy - Holiday rentals</a></li>
+                    <li><a href="#">Amsterdam - Pet-friendly rentals</a></li>
+                    <li><a href="#">Athens - House rentals</a></li>
+                    <li><a href="#">Aviemore - Holiday rentals</a></li>
+                    <li><a href="#">Bakewell - Holiday rentals</a></li>
+                    <li><a href="#">Barcelona - Flat rentals</a></li>
+                    <li><a href="#">Bath - Cabin rentals</a></li>
+                    <li><a href="#">Betws-y-Coed - Holiday rentals</a></li>
+                    <li><a href="#">Birmingham - Cottage rentals</a></li>
+                    <li><a href="#">Bordeaux - Holiday rentals</a></li>
+                    <li><a href="#">Bourton-on-the-Water - Holiday rentals</a></li>
+                    <li><a href="#">Show more</a></li>
+                </ul>
+
+                <button type="button" class="custom-button" onclick="toggleDropdown('historicDropdown')">Historic</button>
+                <ul class="dropdown-menu" id="historicDropdown">
+                    <li><a href="#">Aberdeen - Cottage rentals</a></li>
+                    <li><a href="#">Aberystwyth - Holiday rentals</a></li>
+                    <li><a href="#">Alnwick - Holiday rentals</a></li>
+                    <li><a href="#">Bamburgh - Holiday rentals</a></li>
+                    <li><a href="#">Berwick-upon-Tweed - Cottage rentals</a></li>
+                    <li><a href="#">Boscastle - House rentals</a></li>
+                    <li><a href="#">Brittany - Holiday rentals</a></li>
+                    <li><a href="#">Budapest - Flat rentals</a></li>
+                    <li><a href="#">Cardiff - Holiday rentals</a></li>
+                    <li><a href="#">Castleton - House rentals</a></li>
+                    <li><a href="#">Cheltenham - Flat rentals</a></li>
+                    <li><a href="#">Show more</a></li>
+                </ul>
+
+                <button type="button" class="custom-button" onclick="toggleDropdown('coastalDropdown')">Coastals</button>
+                <ul class="dropdown-menu" id="coastalDropdown">
+                    <li><a href="#">Abersoch - Cottage rentals</a></li>
+                    <li><a href="#">Agadir - Holiday rentals</a></li>
+                    <li><a href="#">Albufeira - Holiday rentals</a></li>
+                    <li><a href="#">Aldeburgh - House rentals</a></li>
+                    <li><a href="#">Alicante - Holiday rentals</a></li>
+                    <li><a href="#">Almería - Villa rentals</a></li>
+                    <li><a href="#">Alnmouth - Holiday rentals</a></li>
+                    <li><a href="#">Alvor - Flat rentals</a></li>
+                    <li><a href="#">Antibes - Villa rentals</a></li>
+                    <li><a href="#">Ayia Napa - Holiday rentals</a></li>
+                    <li><a href="#">Barmouth - House rentals</a></li>
+                    <li><a href="#">Show more</a></li>
+                </ul>
+
+                <!-- Other buttons without dropdown -->
+                <button type="button" class="custom-button">Islands</button>
+                <button type="button" class="custom-button">Lakes</button>
+                <button type="button" class="custom-button">Unique stays</button>
+                <button type="button" class="custom-button">Categories</button>
+                <button type="button" class="custom-button">Things to do</button>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-box">
+                <h2 class="section-heading">Support</h2>
+                <a href="#">Help Centre</a>
+                <a href="#">AirCover</a>
+                <a href="#">Anti-discrimination</a>
+                <a href="#">Disability support</a>
+                <a href="#">Cancellation options</a>
+                <a href="#">Report neighbourhood concern</a>
+            </div>
+            <div class="flex-box">
+                <h2 class="section-heading">Hosting</h2>
+                <a href="#">Hosting</a>
+                <a href="#">Airbnb your home</a>
+                <a href="#">AirCover for Hosts</a>
+                <a href="#">Hosting resources</a>
+                <a href="#">Community forum</a>
+                <a href="#">Hosting responsibly</a>
+            </div>
+            <div class="flex-box">
+                <h2 class="section-heading">Airbnb</h2>
+                <a href="#">Join a free Hosting class</a>
+                <a href="#">Airbnb</a>
+                <a href="#">Newsroom</a>
+                <a href="#">New features</a>
+                <a href="#">Careers</a>
+                <a href="#">Investors</a>
+                <a href="#">Gift cards</a>
+                <a href="#">Airbnb.org emergency stays</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

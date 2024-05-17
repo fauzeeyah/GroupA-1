@@ -1,0 +1,302 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #f0f0f0;
+  text-align: center; 
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.search-form {
+  display: inline-block;
+  justify-content:center;
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 75px;
+  padding: 2px; 
+
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+}
+
+.search-input::placeholder {
+  color: black; 
+}
+
+.search-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-submit-button {
+  background-color: red; /* Button background color */
+  color: white; /* Magnifier icon color */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.search-submit-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.search-magnifier {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.search-text {
+  margin-right: 5px;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.search-button-container:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  width: 50%;
+  padding: 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-bottom: 100px;
+}
+
+.flex-item {
+  padding: 2px;
+  font-size: 10px;
+  color: black;
+  border: 1px;
+  border-radius: 2px;
+  transition: background-color 0.3s, border-bottom 0.3s;
+  text-align: left;
+  border-bottom: 30px;
+}
+
+.flex-item:hover {
+  background-color: lightgrey;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.login-signup-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container {
+  display: none;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+select, input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-input span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.info-text {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.info-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info-text a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.continue-btn {
+  background-color: red;
+  color: white;
+}
+
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #f7f7f7;
+}
+
+.social-btn.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.social-btn.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.social-btn.apple-btn {
+  background-color: #000;
+  color: white;
+}
+
+.social-btn.email-btn {
+  background-color: #555;
+  color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.explore-section {
+    padding: 50px;
+}
+
+.explore-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.explore-item {
+    flex: 1 1 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.explore-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.explore-item p {
+    margin-bottom: 20px;
+}
+
+.contact-link,
+.feedback-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+

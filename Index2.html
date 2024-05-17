@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center</title>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+<body> 
+    <div class="content">
+        <h1>Hi, how can we help?</h1>
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Search how-tos and more...">
+            <div class="search-button-container">
+                <button type="submit" class="search-submit-button">
+                    <span class="search-magnifier">&#128269;</span>
+                    <span class="search-text">Search</span>
+                    <span class="dropdown-arrow">&#9662;</span>
+                </button>
+                <div class="dropdown-content" id="dropdownContent">
+                    <a href="#">Top Articles</a>
+                    <a href="#">Cancelling your reservation for a stay</a>
+                    <a href="#">Change the date or time of your Experience reservation</a>
+                    <a href="#">If your Host cancels your reservation</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">Guest</div>
+        <div class="flex-item">Host</div>
+        <div class="flex-item">Experience Host</div>
+        <div class="flex-item">Travel admin</div>
+    </div>
+
+    <div class="intro">
+        <span class="login-signup-btn" onclick="toggleForm()">Log in or Sign up</span>
+    </div>
+
+    <div class="form-container" id="formContainer">
+        <h2>Welcome to Airbnb</h2>
+        <form class="login-form">
+            <label for="country">Country/Region</label>
+            <select id="country" name="country">
+                <option value="uk">United Kingdom (+44)</option>
+                <!-- Add more countries here -->
+            </select>
+            
+            <label for="phone">Phone number</label>
+            <div class="phone-input">
+                <span>+44</span>
+                <input type="tel" id="phone" name="phone" placeholder="XXXX XXXXXX">
+            </div>
+            
+            <p class="info-text">
+                We’ll call or text you to confirm your number. Standard message and data rates apply. 
+                <a href="#">Privacy Policy</a>
+            </p>
+            
+            <button type="submit" class="btn continue-btn">Continue</button>
+            <div class="separator">or</div>
+            
+            <button type="button" class="btn social-btn facebook-btn">Continue with Facebook</button>
+            <button type="button" class="btn social-btn google-btn">Continue with Google</button>
+            <button type="button" class="btn social-btn apple-btn">Continue with Apple</button>
+            <button type="button" class="btn social-btn email-btn">Continue with email</button>
+        </form>
+    </div>
+    
+    <section class="explore-section">
+        <h2>Explore more</h2>
+        <div class="explore-content">
+            <div class="explore-item">
+                <h3>Our community policies</h3>
+                <p>How we build a foundation of trust.</p>
+            </div>
+            <div class="explore-item">
+                <h3>Safety tips and guidelines</h3>
+                <p>Resources to help travelers stay safe.</p>
+            </div>
+            <div class="explore-item">
+                <h3>Need to get in touch?</h3>
+                <p>We’ll start with some questions and get you to the right place.</p>
+                <a href="#" class="contact-link">Contact us</a>
+            </div>
+            <div class="explore-item">
+                <h3>You can also give us feedback.</h3>
+                <p>We appreciate your feedback.</p>
+                <a href="#" class="feedback-link">Give feedback</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
