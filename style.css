@@ -53,6 +53,7 @@ body {
   margin: 0;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
+  
 }
 
 .button-container::-webkit-scrollbar {
@@ -78,7 +79,6 @@ body {
 }
 
 .custom-button::before {
-  content: '◄';
   position: absolute;
   left: -20px;
   opacity: 0;
@@ -86,7 +86,6 @@ body {
 }
 
 .custom-button::after {
-  content: '►';
   position: absolute;
   right: -20px;
   opacity: 0;
@@ -131,13 +130,13 @@ body {
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  flex-wrap: wrap; 
   justify-content: space-between;
 }
 
 .flex-box {
   flex: 0 0 30%;
-  margin-bottom: 20px; /* Add some spacing between flex items */
+  margin-bottom: 20px; 
 }
 
 .section-heading {
@@ -161,6 +160,17 @@ body {
   .flex-box {
       flex: 0 0 45%; /* Adjust flex-basis for smaller screens */
   }
+  .button-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    content: '◄';
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
