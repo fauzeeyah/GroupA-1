@@ -1,0 +1,35 @@
+body {background-color: white}
+h1 {font-size: 55px;font-style: bold;text-align: center;margin:top 30%;padding-bottom: 20%;}
+
+.logo {width:100%; display: flex; justify-content:left;padding-top: 0.8em;font-size: larger;font-style:bold;float:left;}
+
+  .menu {width:100%; display:flex; justify-content: center; padding-top:0.8em;font-size:large; font: bolder;
+  margin: 30px; }
+  .menu ul {list-style:none;display: inline; text-align: center;}
+  img {width: 70px ; height: 50px;}
+  
+  a {text-decoration:none; color: black;}
+
+  a:hover {
+    box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+    transform: scale(1.2); }
+
+  a:hover {display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(168, 164, 164);
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;}
+
+.box-1 {float:right; object-fit: contain;background-color: white;border: none;width: 30px;}
+
+
+.container {object-fit: contain; display:flex;justify-content:center; margin:20px; width:50%;border:5px;
+   color:black; border-style:solid; 
+  border-width: 0.5px;border-radius: 40px; position: absolute; text-align:center;align-self: center;}
+
+  .searchbar {width:100%; display:flex; justify-content:center; float:unset; padding-top:1em;;font-size:large;
+     font: bolder; background-color: white;
+    margin:10px; object-fit: contain; overflow: auto; word-spacing: 5em;}
+  
